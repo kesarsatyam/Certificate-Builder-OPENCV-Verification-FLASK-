@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title> Home Pppage</title>
+</head>
+<style>
+    body{background-color: skyblue;}
+    h1{background-color:coral;}
+    h2{color:blue;}
+    h3{text-align:center;}
+    h1{text-align:center;}
+    h2{text-align:center;}
+    image{image-align:center;}
+    .center
+    {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+</style>
+<body>
+<h1>codeItDown<br>Certificate Verifiaction<br></h1>
+<image src ="{{url_for('static',filename=content+'.png')}}" class="center"></image>
+
+<h2> Document Id:  {{content}} </h2><h3><br> Verified By codeItDown!!</h3>
+</body>
+</html>
